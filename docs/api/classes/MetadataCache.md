@@ -74,7 +74,7 @@ on(name: 'changed', callback: (file: TFile) => any, ctx?: any): EventRef;
 Called when a file has been indexed, and its (updated) cache is now available.
 Called when a file has been resolved for `resolvedLinks` and `unresolvedLinks`.
 This happens sometimes after a file has been indexed.
-Called when all files has been resolved. This will be fired each time files get modified after the initial load.
+Called when all files have been resolved. This will be fired each time files get modified after the initial load.
 
 ### on
 
@@ -85,7 +85,7 @@ on(name: 'resolve', callback: (file: TFile) => any, ctx?: any): EventRef;
 Called when a file has been indexed, and its (updated) cache is now available.
 Called when a file has been resolved for `resolvedLinks` and `unresolvedLinks`.
 This happens sometimes after a file has been indexed.
-Called when all files has been resolved. This will be fired each time files get modified after the initial load.
+Called when all files have been resolved. This will be fired each time files get modified after the initial load.
 
 ### on
 
@@ -96,4 +96,4 @@ on(name: 'resolved', callback: () => any, ctx?: any): EventRef;
 Called when a file has been indexed, and its (updated) cache is now available.
 Called when a file has been resolved for `resolvedLinks` and `unresolvedLinks`.
 This happens sometimes after a file has been indexed.
-Called when all files has been resolved. This will be fired each time files get modified after the initial load.
+Called when all files have been resolved. This will be fired each time files get modified after the initial load.
